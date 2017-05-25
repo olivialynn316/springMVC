@@ -21,16 +21,15 @@ public class LoginAction {
      * ע��userService
      */
     //依赖注入
-    //@Resource
+    @Resource
     private UserService userService;
 
     @RequestMapping(method = RequestMethod.POST, produces="application/json;charset=UTF-8")
     @ResponseBody
     public UserDO login(@ModelAttribute("userDO")UserDO userDO) {
         //List<UserDO> result = userService.findUserList(userDO);
-//        long count = userService.findUserListForCount(userDO);
-//        UserDO findUser = userService.findUser(userDO);
-        UserDO findUser= new UserDO("123","123");
+        long count = userService.findUserListForCount(userDO);
+        UserDO findUser = userService.findUser(userDO);
         return findUser;
     }
 }
