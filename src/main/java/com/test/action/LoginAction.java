@@ -12,10 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-/**
- * @author wb-yxj268701
- * @date 2017/05/22
- */
+
 @Controller
 @RequestMapping("/login")
 public class LoginAction {
