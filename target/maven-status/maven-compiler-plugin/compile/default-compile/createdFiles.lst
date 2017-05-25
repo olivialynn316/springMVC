@@ -1,0 +1,6 @@
+com/test/action/LoginAction.class
+com/test/domain/UserDO.class
+com/test/service/UserService.class
+com/test/dao/UserDAO.class
+com/test/impl/UserServiceImpl.class
+com/test/action/IndexController.class
