@@ -24,7 +24,7 @@ public class LoginAction {
      * ע��userService
      */
     //依赖注入
-    @Resource
+    //@Resource
     private UserService userService;
 
     @RequestMapping(method = RequestMethod.POST, produces="application/json;charset=UTF-8")
