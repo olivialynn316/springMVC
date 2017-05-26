@@ -26,17 +26,19 @@ public class UserServiceImpl implements UserService {
     UserDAO userDAO;
 
     /**
-     * 根据参数查找用户列表
+     * 鏍规嵁鍙傛暟鏌ユ壘鐢ㄦ埛鍒楄〃
+     *
      * @param userDO
      * @return
      */
-   public List<UserDO> findUserList(UserDO userDO) {
+    public List<UserDO> findUserList(UserDO userDO) {
         List<UserDO> userDOList = userDAO.findUserList(userDO);
         return userDOList;
     }
 
     /**
-     * 根据参数查找用户数量
+     * 鏍规嵁鍙傛暟鏌ユ壘鐢ㄦ埛鏁伴噺
+     *
      * @param userDO
      * @return
      */
@@ -45,7 +47,8 @@ public class UserServiceImpl implements UserService {
     }
 
     /**
-     * 根据参数查找用户信息
+     * 鏍规嵁鍙傛暟鏌ユ壘鐢ㄦ埛淇℃伅
+     *
      * @param userDO
      * @return
      */
@@ -53,10 +56,9 @@ public class UserServiceImpl implements UserService {
         return userDAO.findUser(userDO);
     }
 
-
-
     /**
-     * 保存用户信息
+     * 淇濆瓨鐢ㄦ埛淇℃伅
+     *
      * @param userDO
      */
     public void saveUser(UserDO userDO) {

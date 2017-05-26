@@ -7,28 +7,29 @@ package com.test.domain;
 public class UserDO {
 
     /**
-     * ÓÃ»§id
+     * ç”¨æˆ·id
      */
     private String id;
 
     /**
-     * ÓÃ»§Ãû
+     * ç”¨æˆ·å
      */
     private String username;
 
     /**
-     * ÃÜÂë
+     * å¯†ç 
      */
     private String password;
 
     /**
-     * ÎŞ²Î¹¹ÔìÆ÷
+     * æ— å‚æ„é€ å™¨
      */
     public UserDO() {
     }
 
     /**
-     * ÓĞ²Î¹¹ÔìÆ÷,²»º¬id
+     * æœ‰å‚æ„é€ å™¨,ä¸å«id
+     *
      * @param username
      * @param password
      */
@@ -38,7 +39,8 @@ public class UserDO {
     }
 
     /**
-     * ÍêÕûÓĞ²Î¹¹ÔìÆ÷
+     * å®Œæ•´æœ‰å‚æ„é€ å™¨
+     *
      * @param id
      * @param username
      * @param password

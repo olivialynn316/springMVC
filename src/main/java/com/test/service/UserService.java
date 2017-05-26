@@ -11,30 +11,32 @@ import com.test.domain.UserDO;
 public interface UserService {
 
     /**
-     * 根据参数查找用户列表
+     * 鏍规嵁鍙傛暟鏌ユ壘鐢ㄦ埛鍒楄〃
+     *
      * @param userDO
      * @return
      */
     List<UserDO> findUserList(UserDO userDO);
 
     /**
-     * 根据参数查找用户数量
+     * 鏍规嵁鍙傛暟鏌ユ壘鐢ㄦ埛鏁伴噺
+     *
      * @param userDO
      * @return
      */
     long findUserListForCount(UserDO userDO);
 
     /**
-     * 根据参数查找用户信息
+     * 鏍规嵁鍙傛暟鏌ユ壘鐢ㄦ埛淇℃伅
+     *
      * @param userDO
      * @return
      */
     UserDO findUser(UserDO userDO);
 
-
-
     /**
-     * 保存用户信息
+     * 淇濆瓨鐢ㄦ埛淇℃伅
+     *
      * @param userDO
      */
     void saveUser(UserDO userDO);
