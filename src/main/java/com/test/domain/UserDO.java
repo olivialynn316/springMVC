@@ -38,4 +38,5 @@ public class UserDO {
         this.username = username;
         this.password = password;
     }
+
 }
